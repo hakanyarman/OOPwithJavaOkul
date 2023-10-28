@@ -28,7 +28,9 @@ public class Main {
 
         //-------------------------------------------------------------------------
 
-        Car ford1 = new Car("Ford Focus");
+        Car ford1 = new Car("Ford Focus"){
+
+        };
         System.out.println(ford1.model + " " + ford1.brand + " " + ford1.tlPrice(25));
 
     }
