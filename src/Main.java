@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class Main {
 
@@ -32,6 +33,9 @@ public class Main {
 
         };
         System.out.println(ford1.model + " " + ford1.brand + " " + ford1.tlPrice(25));
+
+
+
 
     }
 }
